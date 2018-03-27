@@ -1,0 +1,16 @@
+<ion-content padding>
+  <div class="box-pergunta">
+    <div class="header-pergunta">Pergunta 01</div>
+    <div class="pergunta">Porque você está assim?</div>
+  </div>
+  <div class="box-respostas">
+    <button (click)="ok(false)">Nada</button>
+    <button (click)="ok(true)">To tranquilo</button>
+    <button (click)="ok(false)">Sei não</button>
+    <button (click)="ok(false)">Não quero falar </button>
+  </div>
+  <div class="buttons-footer">
+    <button ion-button color="danger" (click)="desafios()">SAIR</button>
+    <button ion-button color="secondary" (click)="pergunta()">PRÓXIMO</button>
+  </div>
+</ion-content>
